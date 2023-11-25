@@ -1,0 +1,1195 @@
+{
+    "tower": {
+        "current": {
+            "cards": {
+                "1": {
+                    "charId": "char_263_skadi",
+                    "currentEquip": "uniequip_003_skadi",
+                    "defaultEquip": 2,
+                    "equip": {
+                        "uniequip_001_skadi": {
+                            "hide": 0,
+                            "locked": 0,
+                            "level": 1
+                        },
+                        "uniequip_002_skadi": {
+                            "hide": 0,
+                            "locked": 0,
+                            "level": 3
+                        },
+                        "uniequip_003_skadi": {
+                            "hide": 0,
+                            "locked": 0,
+                            "level": 3
+                        }
+                    },
+                    "evolvePhase": 2,
+                    "favorPoint": 25570,
+                    "instId": "1",
+                    "level": 90,
+                    "mainSkillLvl": 7,
+                    "potentialRank": 5,
+                    "relation": "306",
+                    "skills": [
+                        {
+                            "skillId": "skcom_quickattack[3]",
+                            "unlock": 1,
+                            "state": 0,
+                            "specializeLevel": 3,
+                            "completeUpgradeTime": -1
+                        },
+                        {
+                            "skillId": "skchr_skadi_2",
+                            "unlock": 1,
+                            "state": 0,
+                            "specializeLevel": 3,
+                            "completeUpgradeTime": -1
+                        },
+                        {
+                            "skillId": "skchr_skadi_3",
+                            "unlock": 1,
+                            "state": 0,
+                            "specializeLevel": 3,
+                            "completeUpgradeTime": -1
+                        }
+                    ],
+                    "skin": "char_263_skadi@marthe#5",
+                    "type": "CHAR"
+                },
+                "2": {
+                    "charId": "char_1023_ghost2",
+                    "currentEquip": "uniequip_003_ghost2",
+                    "defaultEquip": 2,
+                    "equip": {
+                        "uniequip_001_ghost2": {
+                            "hide": 0,
+                            "locked": 0,
+                            "level": 1
+                        },
+                        "uniequip_002_ghost2": {
+                            "hide": 0,
+                            "locked": 0,
+                            "level": 3
+                        },
+                        "uniequip_003_ghost2": {
+                            "hide": 0,
+                            "locked": 0,
+                            "level": 3
+                        }
+                    },
+                    "evolvePhase": 2,
+                    "favorPoint": 25570,
+                    "instId": "2",
+                    "level": 90,
+                    "mainSkillLvl": 7,
+                    "potentialRank": 5,
+                    "relation": "267",
+                    "skills": [
+                        {
+                            "skillId": "skchr_ghost2_1",
+                            "unlock": 1,
+                            "state": 0,
+                            "specializeLevel": 3,
+                            "completeUpgradeTime": -1
+                        },
+                        {
+                            "skillId": "skchr_ghost2_2",
+                            "unlock": 1,
+                            "state": 0,
+                            "specializeLevel": 3,
+                            "completeUpgradeTime": -1
+                        },
+                        {
+                            "skillId": "skchr_ghost2_3",
+                            "unlock": 1,
+                            "state": 0,
+                            "specializeLevel": 3,
+                            "completeUpgradeTime": -1
+                        }
+                    ],
+                    "skin": "char_1023_ghost2@boc#6",
+                    "type": "CHAR"
+                },
+                "3": {
+                    "charId": "char_474_glady",
+                    "currentEquip": "uniequip_002_glady",
+                    "defaultEquip": 2,
+                    "equip": {
+                        "uniequip_001_glady": {
+                            "hide": 0,
+                            "locked": 0,
+                            "level": 1
+                        },
+                        "uniequip_002_glady": {
+                            "hide": 0,
+                            "locked": 0,
+                            "level": 3
+                        }
+                    },
+                    "evolvePhase": 2,
+                    "favorPoint": 25570,
+                    "instId": "3",
+                    "level": 90,
+                    "mainSkillLvl": 7,
+                    "potentialRank": 5,
+                    "relation": "265",
+                    "skills": [
+                        {
+                            "skillId": "skchr_glady_1",
+                            "unlock": 1,
+                            "state": 0,
+                            "specializeLevel": 3,
+                            "completeUpgradeTime": -1
+                        },
+                        {
+                            "skillId": "skchr_glady_2",
+                            "unlock": 1,
+                            "state": 0,
+                            "specializeLevel": 3,
+                            "completeUpgradeTime": -1
+                        },
+                        {
+                            "skillId": "skchr_glady_3",
+                            "unlock": 1,
+                            "state": 0,
+                            "specializeLevel": 3,
+                            "completeUpgradeTime": -1
+                        }
+                    ],
+                    "skin": "char_474_glady@boc#5",
+                    "type": "CHAR"
+                },
+                "4": {
+                    "charId": "char_4000_jnight",
+                    "currentEquip": null,
+                    "defaultEquip": -1,
+                    "equip": {},
+                    "evolvePhase": 0,
+                    "favorPoint": 25570,
+                    "instId": "4",
+                    "level": 30,
+                    "mainSkillLvl": 7,
+                    "potentialRank": 5,
+                    "relation": "4",
+                    "skills": [],
+                    "skin": "char_4000_jnight@boc#7",
+                    "type": "CHAR"
+                },
+                "5": {
+                    "charId": "char_503_rang",
+                    "currentEquip": null,
+                    "defaultEquip": -1,
+                    "equip": {},
+                    "evolvePhase": 0,
+                    "favorPoint": 25570,
+                    "instId": "5",
+                    "level": 30,
+                    "mainSkillLvl": 7,
+                    "potentialRank": 5,
+                    "relation": "10",
+                    "skills": [],
+                    "skin": "char_503_rang#1",
+                    "type": "CHAR"
+                },
+                "6": {
+                    "charId": "char_4077_palico",
+                    "currentEquip": null,
+                    "defaultEquip": -1,
+                    "equip": {},
+                    "evolvePhase": 0,
+                    "favorPoint": 25570,
+                    "instId": "6",
+                    "level": 30,
+                    "mainSkillLvl": 7,
+                    "potentialRank": 5,
+                    "relation": "5",
+                    "skills": [],
+                    "skin": "char_4077_palico@mh#1",
+                    "type": "CHAR"
+                },
+                "7": {
+                    "charId": "char_1013_chen2",
+                    "currentEquip": null,
+                    "defaultEquip": 2,
+                    "equip": {},
+                    "evolvePhase": 2,
+                    "favorPoint": 25570,
+                    "instId": "7",
+                    "level": 90,
+                    "mainSkillLvl": 7,
+                    "potentialRank": 5,
+                    "relation": "230",
+                    "skills": [
+                        {
+                            "skillId": "skchr_chen2_1",
+                            "unlock": 1,
+                            "state": 0,
+                            "specializeLevel": 3,
+                            "completeUpgradeTime": -1
+                        },
+                        {
+                            "skillId": "skchr_chen2_2",
+                            "unlock": 1,
+                            "state": 0,
+                            "specializeLevel": 3,
+                            "completeUpgradeTime": -1
+                        },
+                        {
+                            "skillId": "skchr_chen2_3",
+                            "unlock": 1,
+                            "state": 0,
+                            "specializeLevel": 3,
+                            "completeUpgradeTime": -1
+                        }
+                    ],
+                    "skin": "char_1013_chen2@boc#6",
+                    "type": "CHAR"
+                },
+                "8": {
+                    "charId": "char_1016_agoat2",
+                    "currentEquip": null,
+                    "defaultEquip": 2,
+                    "equip": {},
+                    "evolvePhase": 2,
+                    "favorPoint": 25570,
+                    "instId": "8",
+                    "level": 90,
+                    "mainSkillLvl": 7,
+                    "potentialRank": 5,
+                    "relation": "273",
+                    "skills": [
+                        {
+                            "skillId": "skchr_agoat2_1",
+                            "unlock": 1,
+                            "state": 0,
+                            "specializeLevel": 3,
+                            "completeUpgradeTime": -1
+                        },
+                        {
+                            "skillId": "skchr_agoat2_2",
+                            "unlock": 1,
+                            "state": 0,
+                            "specializeLevel": 3,
+                            "completeUpgradeTime": -1
+                        },
+                        {
+                            "skillId": "skchr_agoat2_3",
+                            "unlock": 1,
+                            "state": 0,
+                            "specializeLevel": 3,
+                            "completeUpgradeTime": -1
+                        }
+                    ],
+                    "skin": "char_1016_agoat2#2",
+                    "type": "CHAR"
+                },
+                "9": {
+                    "charId": "char_4065_judge",
+                    "currentEquip": null,
+                    "defaultEquip": 2,
+                    "equip": {},
+                    "evolvePhase": 2,
+                    "favorPoint": 25570,
+                    "instId": "9",
+                    "level": 90,
+                    "mainSkillLvl": 7,
+                    "potentialRank": 5,
+                    "relation": "280",
+                    "skills": [
+                        {
+                            "skillId": "skchr_judge_1",
+                            "unlock": 1,
+                            "state": 0,
+                            "specializeLevel": 3,
+                            "completeUpgradeTime": -1
+                        },
+                        {
+                            "skillId": "skchr_judge_2",
+                            "unlock": 1,
+                            "state": 0,
+                            "specializeLevel": 3,
+                            "completeUpgradeTime": -1
+                        },
+                        {
+                            "skillId": "skchr_judge_3",
+                            "unlock": 1,
+                            "state": 0,
+                            "specializeLevel": 3,
+                            "completeUpgradeTime": -1
+                        }
+                    ],
+                    "skin": "char_4065_judge#2",
+                    "type": "CHAR"
+                },
+                "10": {
+                    "charId": "char_311_mudrok",
+                    "currentEquip": null,
+                    "defaultEquip": 2,
+                    "equip": {},
+                    "evolvePhase": 2,
+                    "favorPoint": 25570,
+                    "instId": "10",
+                    "level": 90,
+                    "mainSkillLvl": 7,
+                    "potentialRank": 5,
+                    "relation": "279",
+                    "skills": [
+                        {
+                            "skillId": "skcom_def_up[3]",
+                            "unlock": 1,
+                            "state": 0,
+                            "specializeLevel": 3,
+                            "completeUpgradeTime": -1
+                        },
+                        {
+                            "skillId": "skchr_mudrok_2",
+                            "unlock": 1,
+                            "state": 0,
+                            "specializeLevel": 3,
+                            "completeUpgradeTime": -1
+                        },
+                        {
+                            "skillId": "skchr_mudrok_3",
+                            "unlock": 1,
+                            "state": 0,
+                            "specializeLevel": 3,
+                            "completeUpgradeTime": -1
+                        }
+                    ],
+                    "skin": "char_311_mudrok@ambienceSynesthesia#2",
+                    "type": "CHAR"
+                },
+                "11": {
+                    "charId": "char_377_gdglow",
+                    "currentEquip": null,
+                    "defaultEquip": 2,
+                    "equip": {},
+                    "evolvePhase": 2,
+                    "favorPoint": 25570,
+                    "instId": "11",
+                    "level": 90,
+                    "mainSkillLvl": 7,
+                    "potentialRank": 5,
+                    "relation": "248",
+                    "skills": [
+                        {
+                            "skillId": "skchr_gdglow_1",
+                            "unlock": 1,
+                            "state": 0,
+                            "specializeLevel": 3,
+                            "completeUpgradeTime": -1
+                        },
+                        {
+                            "skillId": "skchr_gdglow_2",
+                            "unlock": 1,
+                            "state": 0,
+                            "specializeLevel": 3,
+                            "completeUpgradeTime": -1
+                        },
+                        {
+                            "skillId": "skchr_gdglow_3",
+                            "unlock": 1,
+                            "state": 0,
+                            "specializeLevel": 3,
+                            "completeUpgradeTime": -1
+                        }
+                    ],
+                    "skin": "char_377_gdglow@summer#12",
+                    "type": "CHAR"
+                },
+                "12": {
+                    "charId": "char_180_amgoat",
+                    "currentEquip": "uniequip_002_amgoat",
+                    "defaultEquip": 2,
+                    "equip": {
+                        "uniequip_001_amgoat": {
+                            "hide": 0,
+                            "locked": 0,
+                            "level": 1
+                        },
+                        "uniequip_002_amgoat": {
+                            "hide": 0,
+                            "locked": 0,
+                            "level": 3
+                        }
+                    },
+                    "evolvePhase": 2,
+                    "favorPoint": 25570,
+                    "instId": "12",
+                    "level": 90,
+                    "mainSkillLvl": 7,
+                    "potentialRank": 5,
+                    "relation": "241",
+                    "skills": [
+                        {
+                            "skillId": "skchr_amgoat_1",
+                            "unlock": 1,
+                            "state": 0,
+                            "specializeLevel": 3,
+                            "completeUpgradeTime": -1
+                        },
+                        {
+                            "skillId": "skchr_amgoat_2",
+                            "unlock": 1,
+                            "state": 0,
+                            "specializeLevel": 3,
+                            "completeUpgradeTime": -1
+                        },
+                        {
+                            "skillId": "skchr_amgoat_3",
+                            "unlock": 1,
+                            "state": 0,
+                            "specializeLevel": 3,
+                            "completeUpgradeTime": -1
+                        }
+                    ],
+                    "skin": "char_180_amgoat@summer#5",
+                    "type": "CHAR"
+                },
+                "13": {
+                    "charId": "char_501_durin",
+                    "currentEquip": null,
+                    "defaultEquip": -1,
+                    "equip": {},
+                    "evolvePhase": 0,
+                    "favorPoint": 25570,
+                    "instId": "13",
+                    "level": 30,
+                    "mainSkillLvl": 7,
+                    "potentialRank": 5,
+                    "relation": "11",
+                    "skills": [],
+                    "skin": "char_501_durin#1",
+                    "type": "CHAR"
+                },
+                "14": {
+                    "charId": "char_505_rcast",
+                    "currentEquip": null,
+                    "defaultEquip": -1,
+                    "equip": {},
+                    "evolvePhase": 1,
+                    "favorPoint": 25570,
+                    "instId": "14",
+                    "level": 55,
+                    "mainSkillLvl": 7,
+                    "potentialRank": 5,
+                    "relation": "31",
+                    "skills": [],
+                    "skin": "char_505_rcast#1",
+                    "type": "CHAR"
+                },
+                "15": {
+                    "charId": "char_222_bpipe",
+                    "currentEquip": "uniequip_002_bpipe",
+                    "defaultEquip": 2,
+                    "equip": {
+                        "uniequip_001_bpipe": {
+                            "hide": 0,
+                            "locked": 0,
+                            "level": 1
+                        },
+                        "uniequip_002_bpipe": {
+                            "hide": 0,
+                            "locked": 0,
+                            "level": 3
+                        }
+                    },
+                    "evolvePhase": 2,
+                    "favorPoint": 25570,
+                    "instId": "15",
+                    "level": 90,
+                    "mainSkillLvl": 7,
+                    "potentialRank": 5,
+                    "relation": "232",
+                    "skills": [
+                        {
+                            "skillId": "skcom_quickattack[3]",
+                            "unlock": 1,
+                            "state": 0,
+                            "specializeLevel": 3,
+                            "completeUpgradeTime": -1
+                        },
+                        {
+                            "skillId": "skchr_bpipe_2",
+                            "unlock": 1,
+                            "state": 0,
+                            "specializeLevel": 3,
+                            "completeUpgradeTime": -1
+                        },
+                        {
+                            "skillId": "skchr_bpipe_3",
+                            "unlock": 1,
+                            "state": 0,
+                            "specializeLevel": 3,
+                            "completeUpgradeTime": -1
+                        }
+                    ],
+                    "skin": "char_222_bpipe@race#1",
+                    "type": "CHAR"
+                },
+                "16": {
+                    "charId": "char_401_elysm",
+                    "currentEquip": "uniequip_002_elysm",
+                    "defaultEquip": 0,
+                    "equip": {
+                        "uniequip_001_elysm": {
+                            "hide": 0,
+                            "locked": 0,
+                            "level": 1
+                        },
+                        "uniequip_002_elysm": {
+                            "hide": 0,
+                            "locked": 0,
+                            "level": 3
+                        }
+                    },
+                    "evolvePhase": 2,
+                    "favorPoint": 25570,
+                    "instId": "16",
+                    "level": 80,
+                    "mainSkillLvl": 7,
+                    "potentialRank": 5,
+                    "relation": "94",
+                    "skills": [
+                        {
+                            "skillId": "skcom_assist_cost[3]",
+                            "unlock": 1,
+                            "state": 0,
+                            "specializeLevel": 3,
+                            "completeUpgradeTime": -1
+                        },
+                        {
+                            "skillId": "skchr_elysm_2",
+                            "unlock": 1,
+                            "state": 0,
+                            "specializeLevel": 3,
+                            "completeUpgradeTime": -1
+                        }
+                    ],
+                    "skin": "char_401_elysm@summer#9",
+                    "type": "CHAR"
+                },
+                "17": {
+                    "charId": "char_151_myrtle",
+                    "currentEquip": "uniequip_002_myrtle",
+                    "defaultEquip": 0,
+                    "equip": {
+                        "uniequip_001_myrtle": {
+                            "hide": 0,
+                            "locked": 0,
+                            "level": 1
+                        },
+                        "uniequip_002_myrtle": {
+                            "hide": 0,
+                            "locked": 0,
+                            "level": 3
+                        }
+                    },
+                    "evolvePhase": 2,
+                    "favorPoint": 25570,
+                    "instId": "17",
+                    "level": 70,
+                    "mainSkillLvl": 7,
+                    "potentialRank": 5,
+                    "relation": "51",
+                    "skills": [
+                        {
+                            "skillId": "skcom_assist_cost[2]",
+                            "unlock": 1,
+                            "state": 0,
+                            "specializeLevel": 3,
+                            "completeUpgradeTime": -1
+                        },
+                        {
+                            "skillId": "skchr_myrtle_2",
+                            "unlock": 1,
+                            "state": 0,
+                            "specializeLevel": 3,
+                            "completeUpgradeTime": -1
+                        }
+                    ],
+                    "skin": "char_151_myrtle@summer#12",
+                    "type": "CHAR"
+                },
+                "18": {
+                    "charId": "char_1012_skadi2",
+                    "currentEquip": null,
+                    "defaultEquip": 1,
+                    "equip": {},
+                    "evolvePhase": 2,
+                    "favorPoint": 25570,
+                    "instId": "18",
+                    "level": 90,
+                    "mainSkillLvl": 7,
+                    "potentialRank": 5,
+                    "relation": "254",
+                    "skills": [
+                        {
+                            "skillId": "skchr_skadi2_1",
+                            "unlock": 1,
+                            "state": 0,
+                            "specializeLevel": 3,
+                            "completeUpgradeTime": -1
+                        },
+                        {
+                            "skillId": "skchr_skadi2_2",
+                            "unlock": 1,
+                            "state": 0,
+                            "specializeLevel": 3,
+                            "completeUpgradeTime": -1
+                        },
+                        {
+                            "skillId": "skchr_skadi2_3",
+                            "unlock": 1,
+                            "state": 0,
+                            "specializeLevel": 3,
+                            "completeUpgradeTime": -1
+                        }
+                    ],
+                    "skin": "char_1012_skadi2@boc#4",
+                    "type": "CHAR"
+                },
+                "19": {
+                    "charId": "char_2023_ling",
+                    "currentEquip": "uniequip_002_ling",
+                    "defaultEquip": 2,
+                    "equip": {
+                        "uniequip_001_ling": {
+                            "hide": 0,
+                            "locked": 0,
+                            "level": 1
+                        },
+                        "uniequip_002_ling": {
+                            "hide": 0,
+                            "locked": 0,
+                            "level": 3
+                        }
+                    },
+                    "evolvePhase": 2,
+                    "favorPoint": 25570,
+                    "instId": "19",
+                    "level": 90,
+                    "mainSkillLvl": 7,
+                    "potentialRank": 5,
+                    "relation": "256",
+                    "skills": [
+                        {
+                            "skillId": "skchr_ling_1",
+                            "unlock": 1,
+                            "state": 0,
+                            "specializeLevel": 3,
+                            "completeUpgradeTime": -1
+                        },
+                        {
+                            "skillId": "skchr_ling_2",
+                            "unlock": 1,
+                            "state": 0,
+                            "specializeLevel": 3,
+                            "completeUpgradeTime": -1
+                        },
+                        {
+                            "skillId": "skchr_ling_3",
+                            "unlock": 1,
+                            "state": 0,
+                            "specializeLevel": 3,
+                            "completeUpgradeTime": -1
+                        }
+                    ],
+                    "skin": "char_2023_ling@ncg#1",
+                    "type": "CHAR"
+                },
+                "20": {
+                    "charId": "char_1028_texas2",
+                    "currentEquip": "uniequip_002_texas2",
+                    "defaultEquip": 2,
+                    "equip": {
+                        "uniequip_001_texas2": {
+                            "hide": 0,
+                            "locked": 0,
+                            "level": 1
+                        },
+                        "uniequip_002_texas2": {
+                            "hide": 0,
+                            "locked": 0,
+                            "level": 3
+                        }
+                    },
+                    "evolvePhase": 2,
+                    "favorPoint": 25570,
+                    "instId": "20",
+                    "level": 90,
+                    "mainSkillLvl": 7,
+                    "potentialRank": 5,
+                    "relation": "259",
+                    "skills": [
+                        {
+                            "skillId": "skchr_texas2_1",
+                            "unlock": 1,
+                            "state": 0,
+                            "specializeLevel": 3,
+                            "completeUpgradeTime": -1
+                        },
+                        {
+                            "skillId": "skchr_texas2_2",
+                            "unlock": 1,
+                            "state": 0,
+                            "specializeLevel": 3,
+                            "completeUpgradeTime": -1
+                        },
+                        {
+                            "skillId": "skchr_texas2_3",
+                            "unlock": 1,
+                            "state": 0,
+                            "specializeLevel": 3,
+                            "completeUpgradeTime": -1
+                        }
+                    ],
+                    "skin": "char_1028_texas2#2",
+                    "type": "CHAR"
+                },
+                "22": {
+                    "charId": "char_137_brownb",
+                    "currentEquip": null,
+                    "defaultSkillIndex": 1,
+                    "equip": {},
+                    "evolvePhase": 2,
+                    "favorPoint": 25570,
+                    "instId": "22",
+                    "level": 70,
+                    "mainSkillLvl": 7,
+                    "potentialRank": 5,
+                    "relation": "302",
+                    "skills": [
+                        {
+                            "skillId": "skchr_brownb_1",
+                            "unlock": 1,
+                            "state": 0,
+                            "specializeLevel": 3,
+                            "completeUpgradeTime": -1
+                        },
+                        {
+                            "skillId": "skchr_brownb_2",
+                            "unlock": 1,
+                            "state": 0,
+                            "specializeLevel": 3,
+                            "completeUpgradeTime": -1
+                        }
+                    ],
+                    "skin": "char_137_brownb@kitchen#1",
+                    "type": "CHAR"
+                },
+                "23": {
+                    "charId": "char_4009_irene",
+                    "currentEquip": "uniequip_002_irene",
+                    "defaultSkillIndex": 2,
+                    "equip": {
+                        "uniequip_001_irene": {
+                            "hide": 0,
+                            "locked": 0,
+                            "level": 1
+                        },
+                        "uniequip_002_irene": {
+                            "hide": 0,
+                            "locked": 0,
+                            "level": 3
+                        }
+                    },
+                    "evolvePhase": 2,
+                    "favorPoint": 25570,
+                    "instId": "23",
+                    "level": 90,
+                    "mainSkillLvl": 7,
+                    "potentialRank": 5,
+                    "relation": "290",
+                    "skills": [
+                        {
+                            "skillId": "skchr_irene_1",
+                            "unlock": 1,
+                            "state": 0,
+                            "specializeLevel": 3,
+                            "completeUpgradeTime": -1
+                        },
+                        {
+                            "skillId": "skchr_irene_2",
+                            "unlock": 1,
+                            "state": 0,
+                            "specializeLevel": 3,
+                            "completeUpgradeTime": -1
+                        },
+                        {
+                            "skillId": "skchr_irene_3",
+                            "unlock": 1,
+                            "state": 0,
+                            "specializeLevel": 3,
+                            "completeUpgradeTime": -1
+                        }
+                    ],
+                    "skin": "char_4009_irene@ambienceSynesthesia#3",
+                    "type": "CHAR"
+                },
+                "24": {
+                    "charId": "char_4042_lumen",
+                    "currentEquip": "uniequip_003_lumen",
+                    "defaultSkillIndex": 2,
+                    "equip": {
+                        "uniequip_001_lumen": {
+                            "hide": 0,
+                            "locked": 0,
+                            "level": 1
+                        },
+                        "uniequip_002_lumen": {
+                            "hide": 0,
+                            "locked": 0,
+                            "level": 3
+                        },
+                        "uniequip_003_lumen": {
+                            "hide": 0,
+                            "locked": 0,
+                            "level": 3
+                        }
+                    },
+                    "evolvePhase": 2,
+                    "favorPoint": 25570,
+                    "instId": "24",
+                    "level": 90,
+                    "mainSkillLvl": 7,
+                    "potentialRank": 5,
+                    "relation": "272",
+                    "skills": [
+                        {
+                            "skillId": "skchr_lumen_1",
+                            "unlock": 1,
+                            "state": 0,
+                            "specializeLevel": 3,
+                            "completeUpgradeTime": -1
+                        },
+                        {
+                            "skillId": "skchr_lumen_2",
+                            "unlock": 1,
+                            "state": 0,
+                            "specializeLevel": 3,
+                            "completeUpgradeTime": -1
+                        },
+                        {
+                            "skillId": "skchr_lumen_3",
+                            "unlock": 1,
+                            "state": 0,
+                            "specializeLevel": 3,
+                            "completeUpgradeTime": -1
+                        }
+                    ],
+                    "skin": "char_4042_lumen@ambienceSynesthesia#3",
+                    "type": "CHAR"
+                },
+                "25": {
+                    "charId": "char_140_whitew",
+                    "currentEquip": null,
+                    "defaultSkillIndex": 1,
+                    "equip": {},
+                    "evolvePhase": 2,
+                    "favorPoint": 25570,
+                    "instId": "25",
+                    "level": 80,
+                    "mainSkillLvl": 7,
+                    "potentialRank": 5,
+                    "relation": "108",
+                    "skills": [
+                        {
+                            "skillId": "skchr_whitew_1",
+                            "unlock": 1,
+                            "state": 0,
+                            "specializeLevel": 3,
+                            "completeUpgradeTime": -1
+                        },
+                        {
+                            "skillId": "skchr_whitew_2",
+                            "unlock": 1,
+                            "state": 0,
+                            "specializeLevel": 3,
+                            "completeUpgradeTime": -1
+                        }
+                    ],
+                    "skin": "char_140_whitew@boc#1",
+                    "type": "CHAR"
+                }
+            },
+            "godCard": {
+                "id": "card_01",
+                "subGodCardId": ""
+            },
+            "halftime": {
+                "canGiveUp": false,
+                "candidate": [
+                    {
+                        "groupId": "char_120_hibisc",
+                        "type": "CHAR",
+                        "cards": [
+                            {
+                                "instId": "0",
+                                "type": "CHAR",
+                                "charId": "char_120_hibisc",
+                                "relation": "27",
+                                "evolvePhase": 1,
+                                "level": 55,
+                                "favorPoint": 25570,
+                                "potentialRank": 5,
+                                "mainSkillLvl": 7,
+                                "skills": [
+                                    {
+                                        "skillId": "skcom_heal_up[1]",
+                                        "unlock": 1,
+                                        "state": 0,
+                                        "specializeLevel": 0,
+                                        "completeUpgradeTime": -1
+                                    }
+                                ],
+                                "defaultSkillIndex": 0,
+                                "currentEquip": null,
+                                "equip": {},
+                                "skin": "char_120_hibisc@nian#1"
+                            }
+                        ]
+                    },
+                    {
+                        "groupId": "char_252_bibeak",
+                        "type": "CHAR",
+                        "cards": [
+                            {
+                                "instId": "0",
+                                "type": "CHAR",
+                                "charId": "char_252_bibeak",
+                                "relation": "111",
+                                "evolvePhase": 2,
+                                "level": 80,
+                                "favorPoint": 25570,
+                                "potentialRank": 5,
+                                "mainSkillLvl": 7,
+                                "skills": [
+                                    {
+                                        "skillId": "skchr_bibeak_1",
+                                        "unlock": 1,
+                                        "state": 0,
+                                        "specializeLevel": 3,
+                                        "completeUpgradeTime": -1
+                                    },
+                                    {
+                                        "skillId": "skchr_bibeak_2",
+                                        "unlock": 1,
+                                        "state": 0,
+                                        "specializeLevel": 3,
+                                        "completeUpgradeTime": -1
+                                    }
+                                ],
+                                "defaultSkillIndex": 1,
+                                "currentEquip": "uniequip_002_bibeak",
+                                "equip": {
+                                    "uniequip_001_bibeak": {
+                                        "hide": 0,
+                                        "locked": 0,
+                                        "level": 1
+                                    },
+                                    "uniequip_002_bibeak": {
+                                        "hide": 0,
+                                        "locked": 0,
+                                        "level": 3
+                                    }
+                                },
+                                "skin": "char_252_bibeak@winter#2"
+                            }
+                        ]
+                    },
+                    {
+                        "groupId": "char_347_jaksel",
+                        "type": "CHAR",
+                        "cards": [
+                            {
+                                "instId": "0",
+                                "type": "CHAR",
+                                "charId": "char_347_jaksel",
+                                "relation": "303",
+                                "evolvePhase": 2,
+                                "level": 70,
+                                "favorPoint": 25570,
+                                "potentialRank": 5,
+                                "mainSkillLvl": 7,
+                                "skills": [
+                                    {
+                                        "skillId": "skchr_jaksel_1",
+                                        "unlock": 1,
+                                        "state": 0,
+                                        "specializeLevel": 3,
+                                        "completeUpgradeTime": -1
+                                    },
+                                    {
+                                        "skillId": "skchr_jaksel_2",
+                                        "unlock": 1,
+                                        "state": 0,
+                                        "specializeLevel": 3,
+                                        "completeUpgradeTime": -1
+                                    }
+                                ],
+                                "defaultSkillIndex": 1,
+                                "currentEquip": null,
+                                "equip": {},
+                                "skin": "char_347_jaksel@whirlwind#2"
+                            }
+                        ]
+                    },
+                    {
+                        "groupId": "char_341_sntlla",
+                        "type": "CHAR",
+                        "cards": [
+                            {
+                                "instId": "0",
+                                "type": "CHAR",
+                                "charId": "char_341_sntlla",
+                                "relation": "144",
+                                "evolvePhase": 2,
+                                "level": 80,
+                                "favorPoint": 25570,
+                                "potentialRank": 5,
+                                "mainSkillLvl": 7,
+                                "skills": [
+                                    {
+                                        "skillId": "skcom_quickattack[3]",
+                                        "unlock": 1,
+                                        "state": 0,
+                                        "specializeLevel": 3,
+                                        "completeUpgradeTime": -1
+                                    },
+                                    {
+                                        "skillId": "skchr_sntlla_2",
+                                        "unlock": 1,
+                                        "state": 0,
+                                        "specializeLevel": 3,
+                                        "completeUpgradeTime": -1
+                                    }
+                                ],
+                                "defaultSkillIndex": 1,
+                                "currentEquip": "uniequip_002_sntlla",
+                                "equip": {
+                                    "uniequip_001_sntlla": {
+                                        "hide": 0,
+                                        "locked": 0,
+                                        "level": 1
+                                    },
+                                    "uniequip_002_sntlla": {
+                                        "hide": 0,
+                                        "locked": 0,
+                                        "level": 3
+                                    }
+                                },
+                                "skin": "char_341_sntlla#2"
+                            }
+                        ]
+                    },
+                    {
+                        "groupId": "char_265_sophia",
+                        "type": "CHAR",
+                        "cards": [
+                            {
+                                "instId": "0",
+                                "type": "CHAR",
+                                "charId": "char_265_sophia",
+                                "relation": "99",
+                                "evolvePhase": 2,
+                                "level": 80,
+                                "favorPoint": 25570,
+                                "potentialRank": 5,
+                                "mainSkillLvl": 7,
+                                "skills": [
+                                    {
+                                        "skillId": "skchr_sophia_1",
+                                        "unlock": 1,
+                                        "state": 0,
+                                        "specializeLevel": 3,
+                                        "completeUpgradeTime": -1
+                                    },
+                                    {
+                                        "skillId": "skchr_sophia_2",
+                                        "unlock": 1,
+                                        "state": 0,
+                                        "specializeLevel": 3,
+                                        "completeUpgradeTime": -1
+                                    }
+                                ],
+                                "defaultSkillIndex": 1,
+                                "currentEquip": "uniequip_002_sophia",
+                                "equip": {
+                                    "uniequip_001_sophia": {
+                                        "hide": 0,
+                                        "locked": 0,
+                                        "level": 1
+                                    },
+                                    "uniequip_002_sophia": {
+                                        "hide": 0,
+                                        "locked": 0,
+                                        "level": 3
+                                    }
+                                },
+                                "skin": "char_265_sophia@epoque#11"
+                            }
+                        ]
+                    }
+                ],
+                "count": 0
+            },
+            "layer": [
+                {
+                    "id": "lt_08_01",
+                    "try": 2,
+                    "pass": false
+                },
+                {
+                    "id": "lt_08_02",
+                    "try": 3,
+                    "pass": false
+                },
+                {
+                    "id": "lt_08_03",
+                    "try": 1,
+                    "pass": false
+                },
+                {
+                    "id": "lt_08_04",
+                    "try": 0,
+                    "pass": false
+                },
+                {
+                    "id": "lt_08_05",
+                    "try": 0,
+                    "pass": false
+                },
+                {
+                    "id": "lt_08_06",
+                    "try": 0,
+                    "pass": false
+                }
+            ],
+            "reward": {
+                "high": 0,
+                "low": 0
+            },
+            "status": {
+                "coord": 2,
+                "isHard": false,
+                "start": 1695376857,
+                "state": "STANDBY",
+                "strategy": "OPTIMIZE",
+                "tactical": {
+                    "PIONEER": "tatical_pioneer_01",
+                    "WARRIOR": "tatical_warrior_01",
+                    "TANK": "tatical_tank_01",
+                    "SNIPER": "tatical_sniper_01",
+                    "CASTER": "tatical_caster_01",
+                    "SUPPORT": "tatical_support_01",
+                    "MEDIC": "tatical_medic_01",
+                    "SPECIAL": "tatical_special_01"
+                },
+                "tower": "tower_n_08"
+            },
+            "trap": []
+        }
+    },
+    "currentStage": "lt_08_03"
+}

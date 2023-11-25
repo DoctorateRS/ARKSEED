@@ -1,0 +1,27 @@
+{
+    "intialSupport": true,
+    "bonus": {
+        "hp": 10,
+        "gold": 999,
+        "capacity": 1,
+        "tmpHP": 10
+    },
+    "bonusEXPGain": 20,
+    "zoneSettings": {
+        "chances": {
+            "Normal": 3,
+            "Emergency": 1,
+            "Trader": 1,
+            "Rest": 1,
+            "Encounter": 2,
+            "Boon": 1,
+            "Entertainment": 1
+        },
+        "zones": {
+            "zone_1": {
+                "x_count": 10,
+                "y_count": 6
+            }
+        }
+    }
+}
