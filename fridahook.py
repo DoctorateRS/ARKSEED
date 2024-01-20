@@ -2,14 +2,15 @@ import sys
 from base64 import b64decode
 
 import frida
+import json
+from time import sleep
 
-sys.path.append("server")
-from server.constants import CONFIG_PATH
-from server.utils import read_json
+import get_static_js
 
-server = read_json(CONFIG_PATH)["server"]
-HOST = server["host"]
-PORT = server["port"]
+with open("config/config.json") as f:
+    config = json.load(f)
+
+server = config["server"]
 MODE = server["mode"]
 
 def on_message(message, data):
@@ -24,30 +25,21 @@ def main():
         device.resume(pid)
         session = device.attach(pid)
 
-    elif MODE == "global":
+    else:
         pid = device.spawn(
             b64decode('Y29tLllvU3RhckVOLkFya25pZ2h0cw==').decode())
         device.resume(pid)
         session = device.attach(pid, realm="emulated")
 
-    else:
-        print("Unrecognized mode.")
-
-    with open("_.js", encoding="utf-8") as f:
-        s = f.read()
-
-    s = s.replace(
-        "@@@DOCTORATE@@@HOST@@@", HOST, 1
-    ).replace(
-        "@@@DOCTORATE@@@PORT@@@", str(PORT), 1
-    )
+    s = get_static_js.getStaticJS()
 
     script = session.create_script(s)
     script.on('message', on_message)
     script.load()
-    print("[!] Ctrl + Z on Windows to detach from instrumented program.\n\n")
+    print("[!] Ctrl+Z on Windows/cmd.exe to detach from instrumented program. [!]")
     sys.stdin.read()
     session.detach()
 
 if __name__ == '__main__':
+    sleep(0.25)
     main()

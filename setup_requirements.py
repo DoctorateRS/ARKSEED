@@ -2,14 +2,11 @@ import os
 import sys
 import lzma
 import subprocess
-import time
 from zipfile import ZipFile
 from contextlib import suppress
 
 import requests
 from ppadb.client import Client as AdbClient
-
-subprocess.Popen("start_local_server.bat", creationflags=subprocess.CREATE_NEW_CONSOLE)
 
 ADB_PATH = "platform-tools\\adb.exe"
 
@@ -23,7 +20,9 @@ def get_device():
                 if len(devices) == 1:
                     return devices[0]
         
-        print("No emulator found.\nEnter the adb connection url with port manually or type q to exit or press enter to wait for a device: ")
+        print(
+            "No emulator found.\nEnter the adb connection url with port manually or type Q to exit or press enter to wait for a device: "
+            )
         result = input()
         if result.lower() == "q":
             sys.exit(0)
@@ -38,11 +37,11 @@ def get_device():
         return devices[0]
 
 if not os.path.exists(ADB_PATH):
-    print("No adb file found. Downloading the latest version.")
-    r = requests.get("https://dl.google.com/android/repository/platform-tools-latest-windows.zip", allow_redirects=True)
-    open('adb.zip', 'wb').write(r.content)
+    if not os.path.exists("adb.zip"):
+        print("No adb file found. Downloading the latest version.")
+        r = requests.get("https://dl.google.com/android/repository/platform-tools-latest-windows.zip", allow_redirects=True)
+        open('adb.zip', 'wb').write(r.content)
     ZipFile('adb.zip').extractall(".")
-    os.remove('adb.zip')
 
 os.system('cls')
 subprocess.run(f"{ADB_PATH} kill-server")
@@ -65,15 +64,16 @@ if not frida_exists:
     architecture = device.shell("getprop ro.product.cpu.abi").strip().replace("-v8a", "")
     print(f"\nArchitecture: {architecture}")
 
-    version = requests.get("https://api.github.com/repos/frida/frida/releases/latest").json()["tag_name"]
-    name = f"frida-server-{version}-android-{architecture}"
-    print(f"Downloading {name}...")
-    url = f"https://github.com/frida/frida/releases/download/{version}/{name}.xz"
-    r = requests.get(url, allow_redirects=True)
-    open('frida-server.xz', 'wb').write(r.content)
+    if not os.path.exists(f"frida-server-{architecture}.xz"):
+        version = requests.get("https://api.github.com/repos/frida/frida/releases/latest").json()["tag_name"]
+        name = f"frida-server-{version}-android-{architecture}"
+        print(f"Downloading {name}...")
+        url = f"https://github.com/frida/frida/releases/download/{version}/{name}.xz"
+        r = requests.get(url, allow_redirects=True)
+        open(f"frida-server-{architecture}.xz", 'wb').write(r.content)
 
     print("Extracting....")
-    with lzma.open("frida-server.xz") as f, open('frida-server', 'wb') as fout:
+    with lzma.open(f"frida-server-{architecture}.xz") as f, open('frida-server', 'wb') as fout:
         file_content = f.read()
         fout.write(file_content)
 
@@ -83,10 +83,7 @@ if not frida_exists:
     print("Modifying permissions")
     device.shell("chmod 755 /data/local/tmp/frida-server")
     os.remove("frida-server")
-    os.remove("frida-server.xz")
 
-print("\nFrida-server is installed!")
+    print("\nFrida-server is installed!")
 
-subprocess.Popen("start_frida-server.bat", creationflags=subprocess.CREATE_NEW_CONSOLE)
-time.sleep(2)
-subprocess.Popen("start_frida-hook.bat", creationflags=subprocess.CREATE_NEW_CONSOLE)
+input("Press enter to exit...")

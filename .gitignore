@@ -1,14 +1,45 @@
+/adb.zip
+/.code
+/frida-server-*.xz
 /_.static.js
+
+# Aria2
+
+/mods.json
+
+!/odpy-ver-mod/setup.bat
+!/odpy-ver-mod/run.bat
+!/odpy-ver-mod/settings.json
+!/odpy-ver-mod/requirements.txt
+!/odpy-ver-mod/main.py
+!/odpy-ver-mod/OpenArknightsFBS
+/odpy-ver-mod/
+.markdownlint.json
+
+/aria2*.zip
+/aria2c.exe
+/assets.txt
+
 # User files
 TestLevel/
+/.vscode/
 
-data/user/
+data/user/user.json
+data/crisis/test.json
+data/crisis/cccustom.json
+
+fridahookglobal.py
+test.py
+mitmproxy-cn1.py
+integrated_strategy.
+start_doctorate.bat
 
 mods/*
 !mods/.placeholder
 
 platform-tools/
 mysql/
+tmp/
 
 # Data files
 assets/
@@ -17,9 +48,6 @@ mods/*
 !mods/.placeholder
 
 platform-tools/
-
-# Data files
-assets/
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
@@ -54,6 +82,8 @@ MANIFEST
 #  before PyInstaller builds the exe, so as to inject date/other infos into it.
 *.manifest
 *.spec
+!/odpy.spec
+.spacedrive
 
 # Installer logs
 pip-log.txt
@@ -176,7 +206,4 @@ cython_debug/
 
 # Visual Studio
 .vs/
-
-data/user/
-data/user/rlv2.json
-data/user/battleReplays.json
+vsc-extensions.txt

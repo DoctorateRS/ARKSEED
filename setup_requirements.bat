@@ -15,11 +15,18 @@ call %virtualEnvironmentFolder%\scripts\activate.bat
 
 IF '%errorlevel%' NEQ '0' (
     @REM If the virtual environment fails to activate we create it
-    echo Preparing environment
+    echo Preparing environment...
     python -m venv %virtualEnvironmentFolder%
     call %virtualEnvironmentFolder%\scripts\activate.bat
     call pip install -r requirements.txt -U
 )
 
 cls
+
+ECHO Installing dependencies...
+
+python3 -m pip install -r requirements.txt -U
+
+cls
+
 python3 setup_requirements.py

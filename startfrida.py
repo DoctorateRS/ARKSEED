@@ -6,7 +6,7 @@ import json
 
 from ppadb.client import Client as AdbClient
 
-server_port = json.load(open('./config/config.json', 'r'))["server"]["port"]
+server_port = json.load(open('config/config.json', 'r'))["server"]["port"]
 default_ports = [7555, 5555, 62001]
 ADB_PATH = "platform-tools\\adb.exe"
 
@@ -20,7 +20,7 @@ def get_device():
                 if len(devices) == 1:
                     return devices[0]
         
-        print("No emulator found.\nEnter the adb connection url with port manually or type q to exit or press enter to wait for a device: ")
+        print("No emulator found.\nEnter the adb connection url with port manually or type Q to exit or press Enter to wait for a device: ")
         result = input()
         if result.lower() == "q":
             sys.exit(0)
@@ -40,7 +40,7 @@ subprocess.run(f'"{ADB_PATH}" start-server')
 client = AdbClient(host="127.0.0.1", port=5037)
 device = None
 
-print("Trying to connect to currently opened emulator")
+print("Trying to connect to currently opened emulator...")
 device = get_device()
 
 print("Check the emulator and accept if it asks for root permission.")
@@ -49,6 +49,7 @@ with suppress(RuntimeError):
 device = get_device()
 os.system(f'"{ADB_PATH}" wait-for-device')
 
-print("\nRunning frida\nNow you can start fridahook\n")
+print("\nRunning frida...\nNow you can start fridahook...\n")
 os.system(f'"{ADB_PATH}" reverse tcp:{server_port} tcp:{server_port}')
+os.system("start cmd.exe /c start_frida-hook.bat")
 os.system(f'"{ADB_PATH}"' + " shell /data/local/tmp/frida-server &")

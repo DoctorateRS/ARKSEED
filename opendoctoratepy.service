@@ -1,14 +1,18 @@
 [Unit]
 
-Description=OpenDoctoratePy
+Description=ODPy
 After=network.target
 
 [Service]
 
-WorkingDirectory=/OpenDoctoratePy/
-Environment="PYTHONPATH=/OpenDoctoratePy/server/"
-ExecStart=/OpenDoctoratePy/venv/bin/gunicorn -b 0.0.0.0:8443 --workers 1 --threads 4 server.app:app
+WorkingDirectory=/ODPy/
+Environment="PYTHONPATH=/ODPy/server/*
+ExecStart=/ODPy/venv/bin/gunicorn -b [::]:8443 --workers 1 --threads 4 server.app:app
 
 [Install]
 
 WantedBy=multi-user.target
+
+[System]
+
+Target="win32"

@@ -9,9 +9,12 @@ old_clientVersion = config["version"]["android"]["clientVersion"]
 
 old_funcVer = config["networkConfig"]["cn"]["content"]["funcVer"]
 
+timeout = config["server"]["timeout"]
+
 try:
     version = requests.get(
-        "https://ak-conf.hypergryph.com/config/prod/official/Android/version"
+        "https://ak-conf.hypergryph.com/config/prod/official/Android/version", 
+        timeout=timeout
     ).json()
     resVersion = version["resVersion"]
     clientVersion = version["clientVersion"]
@@ -25,18 +28,18 @@ except Exception:
 
 try:
     network_config = requests.get(
-        "https://ak-conf.hypergryph.com/config/prod/official/network_config"
+        "https://ak-conf.hypergryph.com/config/prod/official/network_config", 
+        timeout=timeout
     ).json()
     content = json.loads(network_config["content"])
     funcVer = content["funcVer"]
     if funcVer != old_funcVer:
         config["networkConfig"]["cn"]["content"]["funcVer"] = funcVer
-        config["networkConfig"]["cn"]["content"]["configs"][funcVer] = config["networkConfig"]["cn"]["content"]["configs"][old_funcVer]
+        config["networkConfig"]["cn"]["content"]["configs"][funcVer] = config["networkConfig"]["cn"]["content"]["configs"][old_funcVer]  # noqa: E501
         del config["networkConfig"]["cn"]["content"]["configs"][old_funcVer]
 
 except Exception:
     pass
-
 
 with open("config/config.json", "w") as f:
     json.dump(config, f, indent=4)

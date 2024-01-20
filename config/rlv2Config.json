@@ -1,10 +1,10 @@
 {
     "intialSupport": true,
     "bonus": {
-        "hp": 10,
-        "gold": 999,
+        "hp": 2,
+        "gold": 10,
         "capacity": 1,
-        "tmpHP": 10
+        "tmpHP": 1
     },
     "bonusEXPGain": 20,
     "zoneSettings": {
