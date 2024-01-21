@@ -21,7 +21,9 @@ def get_device():
                     return devices[0]
         
         print(
-            "No emulator found.\nEnter the adb connection url with port manually or type Q to exit or press enter to wait for a device: "
+            '''
+            No emulator/device found.
+            Enter the ADB connection URL with Port manually or press Q to exit: '''
             )
         result = input()
         if result.lower() == "q":
@@ -35,11 +37,17 @@ def get_device():
     devices = client.devices()
     if len(devices) == 1:
         return devices[0]
+    else:
+        print("More than one device found. Please enter the device your device.")
+        choice = int(input(""))
+        return devices[choice]
 
 if not os.path.exists(ADB_PATH):
     if not os.path.exists("adb.zip"):
         print("No adb file found. Downloading the latest version.")
-        r = requests.get("https://dl.google.com/android/repository/platform-tools-latest-windows.zip", allow_redirects=True)
+        r = requests.get(
+            "https://dl.google.com/android/repository/platform-tools-latest-windows.zip", 
+            allow_redirects=True)
         open('adb.zip', 'wb').write(r.content)
     ZipFile('adb.zip').extractall(".")
 

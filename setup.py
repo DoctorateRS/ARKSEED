@@ -1,13 +1,10 @@
 import pip
 
 requires = [
-    "flask",
     "requests",
     "frida",
     "pure-python-adb",
-    "pycryptodome",
-    "UnityPy",
-    "bson"
+    "pycryptodome"
 ]
 
 def main():
