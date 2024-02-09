@@ -11,9 +11,7 @@ res_ver = config["version"]["android"]["resVersion"]
 
 if shutil.which("aria2c") is None:
     aria2_url = "https://github.com/aria2/aria2/releases/download/release-1.37.0/aria2-1.37.0-win-64bit-build1.zip"
-    r = requests.get(
-        "https://api.github.com/repos/aria2/aria2/releases/latest"
-    )
+    r = requests.get("https://api.github.com/repos/aria2/aria2/releases/latest")
     s = r.json()
     for i in s["assets"]:
         if i["name"].startswith("aria2") and i["name"].endswith(".zip") and i["name"].find("win-64bit") != -1:  # noqa: E501
@@ -22,11 +20,7 @@ if shutil.which("aria2c") is None:
     aria2_file_name = os.path.basename(aria2_url)
     if not os.path.exists(aria2_file_name):
         print("Download:", aria2_file_name)
-        subprocess.run(
-            [
-                "curl", "-L", "-O", aria2_url
-            ]
-        )
+        subprocess.run(["curl", "-L", "-O", aria2_url])
     print("Use:", aria2_file_name)
     with ZipFile(aria2_file_name) as f:
         aria2_namelist = f.namelist()
@@ -35,41 +29,31 @@ if shutil.which("aria2c") is None:
                 with open("aria2c.exe", "wb") as fout:
                     fout.write(f.read(name))
                     break
-                
+
 os.makedirs(f"assets/{res_ver}/redirects", exist_ok=True)
 
 subprocess.run(
     [
-        "curl", "-L", "-O",
-        "--output-dir", f"assets/{res_ver}/redirect/",
-        f"https://ak.hycdn.cn/assetbundle/official/Android/assets/{res_ver}/hot_update_list.json"
+        "curl",
+        "-L",
+        "-O",
+        "--output-dir",
+        f"assets/{res_ver}/redirect/",
+        f"https://ak.hycdn.cn/assetbundle/official/Android/assets/{res_ver}/hot_update_list.json",
     ]
 )
 
 with open(f"assets/{res_ver}/redirect/hot_update_list.json") as f:
     hot_update_list = json.load(f)
-    
+
 url_list = []
 
 for i in hot_update_list["packInfos"]:
-    filename = i["name"].replace(
-        '/', '_'
-    ).replace(
-        '#', "__"
-    )+".dat"
-    url_list.append(
-        f"https://ak.hycdn.cn/assetbundle/official/Android/assets/{res_ver}/{filename}"
-    )
+    filename = i["name"].replace("/", "_").replace("#", "__") + ".dat"
+    url_list.append(f"https://ak.hycdn.cn/assetbundle/official/Android/assets/{res_ver}/{filename}")
 
 with open("assets.txt", "w") as f:
     for url in url_list:
         print(url, file=f)
-        
-subprocess.run(
-    [
-        "aria2c",
-        "--allow-overwrite",
-        "-d", f"assets/{res_ver}/redirect/",
-        "-i", "assets.txt"
-    ]
-)
+
+subprocess.run(["aria2c", "--allow-overwrite", "-d", f"assets/{res_ver}/redirect/", "-i", "assets.txt"])

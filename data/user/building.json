@@ -2204,6 +2204,25 @@
             },
             "workTime": 0
         },
+        "4023": {
+            "charId": "char_4023_rfalcn",
+            "lastApAddTime": 1695000000,
+            "ap": 8640000,
+            "roomSlotId": "",
+            "index": -1,
+            "changeScale": 0,
+            "bubble": {
+                "normal": {
+                    "add": -1,
+                    "ts": 0
+                },
+                "assist": {
+                    "add": -1,
+                    "ts": 0
+                }
+            },
+            "workTime": 0
+        },
         "261": {
             "charId": "char_261_sddrag",
             "lastApAddTime": 1695000000,
@@ -2244,6 +2263,25 @@
         },
         "401": {
             "charId": "char_401_elysm",
+            "lastApAddTime": 1695000000,
+            "ap": 8640000,
+            "roomSlotId": "",
+            "index": -1,
+            "changeScale": 0,
+            "bubble": {
+                "normal": {
+                    "add": -1,
+                    "ts": 0
+                },
+                "assist": {
+                    "add": -1,
+                    "ts": 0
+                }
+            },
+            "workTime": 0
+        },
+        "4119": {
+            "charId": "char_4119_wanqin",
             "lastApAddTime": 1695000000,
             "ap": 8640000,
             "roomSlotId": "",
@@ -4465,6 +4503,25 @@
             },
             "workTime": 0
         },
+        "4122": {
+            "charId": "char_4122_grabds",
+            "lastApAddTime": 1695000000,
+            "ap": 8640000,
+            "roomSlotId": "",
+            "index": -1,
+            "changeScale": 0,
+            "bubble": {
+                "normal": {
+                    "add": -1,
+                    "ts": 0
+                },
+                "assist": {
+                    "add": -1,
+                    "ts": 0
+                }
+            },
+            "workTime": 0
+        },
         "433": {
             "charId": "char_433_windft",
             "lastApAddTime": 1695000000,
@@ -5909,6 +5966,25 @@
             },
             "workTime": 0
         },
+        "2025": {
+            "charId": "char_2025_shu",
+            "lastApAddTime": 1695000000,
+            "ap": 8640000,
+            "roomSlotId": "",
+            "index": -1,
+            "changeScale": 0,
+            "bubble": {
+                "normal": {
+                    "add": -1,
+                    "ts": 0
+                },
+                "assist": {
+                    "add": -1,
+                    "ts": 0
+                }
+            },
+            "workTime": 0
+        },
         "2014": {
             "charId": "char_2014_nian",
             "lastApAddTime": 1695000000,
@@ -6272,6 +6348,25 @@
         },
         "188": {
             "charId": "char_188_helage",
+            "lastApAddTime": 1695000000,
+            "ap": 8640000,
+            "roomSlotId": "",
+            "index": -1,
+            "changeScale": 0,
+            "bubble": {
+                "normal": {
+                    "add": -1,
+                    "ts": 0
+                },
+                "assist": {
+                    "add": -1,
+                    "ts": 0
+                }
+            },
+            "workTime": 0
+        },
+        "4121": {
+            "charId": "char_4121_zuole",
             "lastApAddTime": 1695000000,
             "ap": 8640000,
             "roomSlotId": "",
@@ -12430,6 +12525,226 @@
             "count": 9999,
             "inUse": 0
         },
+        "furni_TempleFair_ceilingLamp_01": {
+            "count": 9999,
+            "inUse": 0
+        },
+        "furni_TempleFair_table_01": {
+            "count": 9999,
+            "inUse": 0
+        },
+        "furni_TempleFair_cabinet_01": {
+            "count": 9999,
+            "inUse": 0
+        },
+        "furni_TempleFair_bookshelf_01": {
+            "count": 9999,
+            "inUse": 0
+        },
+        "furni_TempleFair_chair_01": {
+            "count": 9999,
+            "inUse": 0
+        },
+        "furni_TempleFair_cabinet_02": {
+            "count": 9999,
+            "inUse": 0
+        },
+        "furni_TempleFair_lamp_01": {
+            "count": 9999,
+            "inUse": 0
+        },
+        "furni_TempleFair_ceilingLights_01": {
+            "count": 9999,
+            "inUse": 0
+        },
+        "furni_TempleFair_chair_02": {
+            "count": 9999,
+            "inUse": 0
+        },
+        "furni_TempleFair_carpet_01": {
+            "count": 9999,
+            "inUse": 0
+        },
+        "furni_TempleFair_tapestry_01": {
+            "count": 9999,
+            "inUse": 0
+        },
+        "furni_TempleFair_pool_01": {
+            "count": 9999,
+            "inUse": 0
+        },
+        "furni_TempleFair_incense_01": {
+            "count": 9999,
+            "inUse": 0
+        },
+        "furni_TempleFair_stand_01": {
+            "count": 9999,
+            "inUse": 0
+        },
+        "furni_TempleFair_basket_01": {
+            "count": 9999,
+            "inUse": 0
+        },
+        "furni_TempleFair_shelf_01": {
+            "count": 9999,
+            "inUse": 0
+        },
+        "furni_TempleFair_table_02": {
+            "count": 9999,
+            "inUse": 0
+        },
+        "furni_TempleFair_wallpaper_01": {
+            "count": 9999,
+            "inUse": 0
+        },
+        "furni_TempleFair_floor_01": {
+            "count": 9999,
+            "inUse": 0
+        },
+        "furni_TianshiMansion_minilight_01": {
+            "count": 9999,
+            "inUse": 0
+        },
+        "furni_TianshiMansion_bookshelf_01": {
+            "count": 9999,
+            "inUse": 0
+        },
+        "furni_TianshiMansion_floorlamp_01": {
+            "count": 9999,
+            "inUse": 0
+        },
+        "furni_TianshiMansion_decoratelamp_01": {
+            "count": 9999,
+            "inUse": 0
+        },
+        "furni_TianshiMansion_carpet_01": {
+            "count": 9999,
+            "inUse": 0
+        },
+        "furni_TianshiMansion_database_01": {
+            "count": 9999,
+            "inUse": 0
+        },
+        "furni_TianshiMansion_table_01": {
+            "count": 9999,
+            "inUse": 0
+        },
+        "furni_TianshiMansion_stonecutoff_01": {
+            "count": 9999,
+            "inUse": 0
+        },
+        "furni_TianshiMansion_bench_01": {
+            "count": 9999,
+            "inUse": 0
+        },
+        "furni_TianshiMansion_cabinet_01": {
+            "count": 9999,
+            "inUse": 0
+        },
+        "furni_TianshiMansion_chair_01": {
+            "count": 9999,
+            "inUse": 0
+        },
+        "furni_TianshiMansion_walllamp_01": {
+            "count": 9999,
+            "inUse": 0
+        },
+        "furni_TianshiMansion_datashelf_01": {
+            "count": 9999,
+            "inUse": 0
+        },
+        "furni_TianshiMansion_largelight_01": {
+            "count": 9999,
+            "inUse": 0
+        },
+        "furni_TianshiMansion_armchair_01": {
+            "count": 9999,
+            "inUse": 0
+        },
+        "furni_TianshiMansion_querydevice_01": {
+            "count": 9999,
+            "inUse": 0
+        },
+        "furni_TianshiMansion_wallpaper_01": {
+            "count": 9999,
+            "inUse": 0
+        },
+        "furni_TianshiMansion_floor_01": {
+            "count": 9999,
+            "inUse": 0
+        },
+        "furni_SargonFair_woodenchandelier_01": {
+            "count": 9999,
+            "inUse": 0
+        },
+        "furni_SargonFair_yarncutoff_01": {
+            "count": 9999,
+            "inUse": 0
+        },
+        "furni_SargonFair_bed_01": {
+            "count": 9999,
+            "inUse": 0
+        },
+        "furni_SargonFair_table_01": {
+            "count": 9999,
+            "inUse": 0
+        },
+        "furni_SargonFair_gemlight_01": {
+            "count": 9999,
+            "inUse": 0
+        },
+        "furni_SargonFair_gemcactus_01": {
+            "count": 9999,
+            "inUse": 0
+        },
+        "furni_SargonFair_ceiling_01": {
+            "count": 9999,
+            "inUse": 0
+        },
+        "furni_SargonFair_chair_01": {
+            "count": 9999,
+            "inUse": 0
+        },
+        "furni_SargonFair_stocktable_01": {
+            "count": 9999,
+            "inUse": 0
+        },
+        "furni_SargonFair_carpet_01": {
+            "count": 9999,
+            "inUse": 0
+        },
+        "furni_SargonFair_clothshelf_01": {
+            "count": 9999,
+            "inUse": 0
+        },
+        "furni_SargonFair_brokencarpet_01": {
+            "count": 9999,
+            "inUse": 0
+        },
+        "furni_SargonFair_stoneshelf_01": {
+            "count": 9999,
+            "inUse": 0
+        },
+        "furni_SargonFair_stockcart_01": {
+            "count": 9999,
+            "inUse": 0
+        },
+        "furni_SargonFair_chandelier_01": {
+            "count": 9999,
+            "inUse": 0
+        },
+        "furni_SargonFair_ceilingbasket_01": {
+            "count": 9999,
+            "inUse": 0
+        },
+        "furni_SargonFair_wallpaper_01": {
+            "count": 9999,
+            "inUse": 0
+        },
+        "furni_SargonFair_floor_01": {
+            "count": 9999,
+            "inUse": 0
+        },
         "furni_oct1st_deckChair_01": {
             "count": 9999,
             "inUse": 0
@@ -12743,6 +13058,10 @@
             "inUse": 0
         },
         "furni_SF2023_weaponRack_01": {
+            "count": 9999,
+            "inUse": 0
+        },
+        "furni_SF2024_blessingPic_01": {
             "count": 9999,
             "inUse": 0
         },
@@ -13110,6 +13429,10 @@
             "count": 9999,
             "inUse": 0
         },
+        "furni_terratimes_Yan_01": {
+            "count": 9999,
+            "inUse": 0
+        },
         "furni_contract_s0_01": {
             "count": 9999,
             "inUse": 0
@@ -13287,6 +13610,14 @@
             "inUse": 0
         },
         "furni_guangming_xiongXiaoBai_01": {
+            "count": 9999,
+            "inUse": 0
+        },
+        "furni_ExAstris_Wei_01": {
+            "count": 9999,
+            "inUse": 0
+        },
+        "furni_ExAstris_Yan_01": {
             "count": 9999,
             "inUse": 0
         },

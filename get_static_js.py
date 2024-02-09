@@ -1,5 +1,6 @@
 import json
 
+
 def getStaticJS():
     with open("config/config.json") as f:
         config = json.load(f)
@@ -17,16 +18,13 @@ def getStaticJS():
     with open("_.js", encoding="utf-8") as f:
         s = f.read()
 
-    s = s.replace(
-        "@@@DOCTORATE_HOST@@@", "NO_PROXY" if NO_PROXY else HOST, 1
-    ).replace(
-        "@@@DOCTORATE_PORT@@@", str(PORT), 1
-    ).replace(
-        "@@@DOCTORATE_ACTIVITY_MIN_START_TS@@@", str(ACTIVITY_MIN_START_TS), 1
-    ).replace(
-        "@@@DOCTORATE_ACTIVITY_MAX_START_TS@@@", str(ACTIVITY_MAX_START_TS), 1
+    s = (
+        s.replace("@@@DOCTORATE_HOST@@@", "NO_PROXY" if NO_PROXY else HOST, 1)
+        .replace("@@@DOCTORATE_PORT@@@", str(PORT), 1)
+        .replace("@@@DOCTORATE_ACTIVITY_MIN_START_TS@@@", str(ACTIVITY_MIN_START_TS), 1)
+        .replace("@@@DOCTORATE_ACTIVITY_MAX_START_TS@@@", str(ACTIVITY_MAX_START_TS), 1)
     )
-    
+
     print("Script generated.")
-    
+
     return s
