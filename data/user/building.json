@@ -13565,6 +13565,10 @@
             "count": 9999,
             "inUse": 0
         },
+        "furni_annihilation_s21_01": {
+            "count": 9999,
+            "inUse": 0
+        },
         "furni_taptap_arcadegame_01": {
             "count": 9999,
             "inUse": 0
@@ -13762,6 +13766,14 @@
             "inUse": 0
         },
         "furni_act44d0_rise_01": {
+            "count": 9999,
+            "inUse": 0
+        },
+        "furni_animation_monitor_01": {
+            "count": 9999,
+            "inUse": 0
+        },
+        "furni_animation_frostnovaDevice_01": {
             "count": 9999,
             "inUse": 0
         }

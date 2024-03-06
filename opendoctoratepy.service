@@ -7,7 +7,7 @@ After=network.target
 
 WorkingDirectory=/ODPy/
 Environment="PYTHONPATH=/ODPy/server/*
-ExecStart=/ODPy/venv/bin/gunicorn -b [::]:8443 --workers 1 --threads 4 server.app:app
+ExecStart=/ODPy/.venv/bin/gunicorn -b [::]:8443 --workers 1 --threads 4 server.app:app
 
 [Install]
 

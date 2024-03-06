@@ -3,3 +3,5 @@ requests
 frida
 pure-python-adb
 pycryptodome
+UnityPy
+bson

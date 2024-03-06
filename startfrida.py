@@ -26,7 +26,7 @@ with suppress(RuntimeError):
 device = get_device()
 os.system(f'"{ADB_PATH}" wait-for-device')
 
-print("\nRunning frida...\nNow you can start fridahook...\n")
+print("\nRunning frida...\nStarting frida-hook...\n")
 os.system(f'"{ADB_PATH}" reverse tcp:{server_port} tcp:{server_port}')
-os.system("start cmd.exe /c start_frida-hook.bat")
+os.system("start cmd.exe /c nu start_frida-hook.nu")
 os.system(f'"{ADB_PATH}"' + " shell /data/local/tmp/frida-server &")

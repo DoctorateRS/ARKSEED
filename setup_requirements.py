@@ -51,9 +51,7 @@ def setup_requirements():
     if not os.path.exists(ADB_PATH):
         if not os.path.exists("adb.zip"):
             print("No adb file found. Downloading the latest version.")
-            r = requests.get(
-                "https://dl.google.com/android/repository/platform-tools-latest-windows.zip", allow_redirects=True
-            )
+            r = requests.get("https://dl.google.com/android/repository/platform-tools-latest-windows.zip", allow_redirects=True)
             open("adb.zip", "wb").write(r.content)
         ZipFile("adb.zip").extractall(".")
 
@@ -99,3 +97,11 @@ def setup_requirements():
         print("\nFrida-server is installed!")
 
     input("Press enter to exit...")
+
+
+def main():
+    setup_requirements()
+
+
+if __name__ == "__main__":
+    main()

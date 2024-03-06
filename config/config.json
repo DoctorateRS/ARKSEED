@@ -17,7 +17,7 @@
     },
     "version": {
         "android": {
-            "resVersion": "24-02-06-16-52-58-51f4ae",
+            "resVersion": "24-02-26-08-28-19-0f351f",
             "clientVersion": "2.2.01"
         }
     },
@@ -103,8 +103,8 @@
             "squadsAndFavs": false,
             "ui": false
         },
-        "activityMinStartTs": 1706155200,
-        "activityMaxStartTs": 1709150399,
+        "activityMinStartTs": 1707984000,
+        "activityMaxStartTs": 1710359999,
         "secretary": "char_245_cello",
         "secretarySkinId": "char_245_cello#2",
         "background": "bg_rogue_3",
@@ -120,6 +120,12 @@
         "skillsSpecializeLevel": 3,
         "customUnitInfo": {},
         "duplicateUnits": []
+    },
+    "gacha": {
+        "5rarity": 1.0,
+        "4rarity": 0,
+        "3rarity": 0,
+        "2rarity": 0
     },
     "assistUnits": [
         {

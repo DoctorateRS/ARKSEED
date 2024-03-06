@@ -3,8 +3,15 @@
 /frida-server-*.xz
 /_.static.js
 
+/patches
+/.ruff_cache
+/log
 # Aria2
+*.whl
+/.venv
 
+/gacha/**
+/gacha/!gacha.json
 /mods.json
 
 !/odpy-ver-mod/setup.bat
@@ -207,3 +214,8 @@ cython_debug/
 # Visual Studio
 .vs/
 vsc-extensions.txt
+data/gacha/24-02-20-11-33-44-564efb.json
+data/gacha/*.json
+!data/gacha/gacha.json
+cliff.toml
+*.patch

@@ -2,8 +2,8 @@ from os import system
 
 
 def main():
-    system("start cmd.exe /c start_local_server.bat")
-    system("start cmd.exe /c start_frida-server.bat")
+    system("start cmd.exe /c nu start_local_server.nu")
+    system("start cmd.exe /c nu start_frida-server.nu")
     print("All done!")
 
 

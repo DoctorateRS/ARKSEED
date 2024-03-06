@@ -1,5 +1,4 @@
-@echo off
-@title ODPy - Starting ODPy
+@ECHO OFF
+@TITLE ODPy - Starting...
 
-call env\scripts\activate.bat
-python3 start.py
+nu start.nu

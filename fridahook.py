@@ -10,8 +10,7 @@ import get_static_js
 with open("config/config.json") as f:
     config = json.load(f)
 
-server = config["server"]
-MODE = server["mode"]
+MODE = config["server"]["mode"]
 
 
 def on_message(message, data):
